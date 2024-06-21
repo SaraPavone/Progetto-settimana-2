@@ -61,26 +61,45 @@ const cars = [
     trims: ['life', 'style', 'r-line'],
   },
 ]
+cars.forEach((car) => {
+  car.licensePlate = 'AB123CD';
+})
+console.log(cars)
 
 
 /* ESERCIZIO 6
     Scrivi del codice per aggiungere un nuovo oggetto in ultima posizione nell'array "cars", rispettando la struttura degli altri elementi.
     Successivamente, rimuovi l'ultimo elemento della proprietà "trims" da ogni auto.
 */
+const cars2 = [{
+  brand: 'Fiat',
+  model: 'Punto',
+  color: 'gray',
+  trims: ['rally','GTI'],
+}
+]
+cars.push(cars2)
+console.log(cars)
 
 
 /* ESERCIZIO 7
     Scrivi del codice per salvare il primo elemento della proprietà "trims" di ogni auto nel nuovo array "justTrims", sotto definito.
 */
-const justTrims = []
 
-for (let i = 3; i < cars.length; i++) {
-  const justTrims = cars[i]
+/*const justTrims = []
 
-  cars.push(justTrims)
+for (let i = 0; i < cars.length; i++) {
+  const car = cars[i]
+
+  cars.push(car.trims);
+
+  for(let i2 = 0; i2 < car.length; i2++){
+    const element = car[i2]
+  }
+
+  justTrims.push(trims.element)
 }
-
-console.log(justTrims)
+console.log(justTrims)*/
 
 
 
