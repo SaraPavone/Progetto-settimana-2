@@ -38,3 +38,19 @@ ul li {
 body {
     background-color: #E9EDEE;
 }
+
+.fasciaOrange {
+    box-sizing: border-box;
+    width: 90%;
+    height: 2rem;
+    background-color: #F56600;
+    align-content: center;
+    color: white;
+    text-align: center;
+    
+}
+
+.fasciona {
+box-sizing: border-box;
+background-image: url(/assets/images/bg-image.png);
+}
